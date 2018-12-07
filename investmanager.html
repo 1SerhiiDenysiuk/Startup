@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8"> 
-    <link href='CSS/main.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css">  
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css"> 
+    <link href='CSS/main.css' rel='stylesheet' type='text/css'>     
    	<title>Інвест менеджер</title>
    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    	<script src="JS/jquery.min.js"></script>
@@ -13,9 +13,25 @@
 <body>
   <a href="main.html"><h2 style="text-align: left; margin-left: 10%;">BACK</h2></a>
 	<h1 style="text-align: center;">Список заявок</h1>
-
+  <div style="margin-left: 45%; margin-top: 50px;">
+  <div class="form-check">
+  <input type="radio" class="form-check-input" id="materialChecked1" name="materialExample2" checked>
+  <label class="form-check-label" for="materialChecked1">Бізнес ангел</label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="materialChecked2" name="materialExample2" checked>
+  <label class="form-check-label" for="materialChecked2">Інвестиційна компанія</label>
+</div>
+</div>
+<input class="form-control" placeholder="ID" style="width: 10%; text-align: center; margin-left: 45%; margin-top: 30px;" id="investor_id">
+<div class="container mt-5 mb-5 col-10">
+  <div class="row d-flext justify-content-between text-center">
+  </div>
+</div>
+    <script type="text/javascript" src="JS/script-investmanager.js"></script>
 <footer>
   <span>© Сергій Денисюк</span>
   </footer>
+
 </body>
 </html>

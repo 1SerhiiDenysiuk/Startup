@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8"> 
-    <link href='CSS/main.css' rel='stylesheet' type='text/css'>
-    <link href='CSS/startupdirector.css' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css">  
+    <link href='CSS/main.css' rel='stylesheet' type='text/css'>
+    <link href='CSS/startupdirector.css' rel='stylesheet' type='text/css'>  
    	<title>Власник стартапу</title>
    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    	<script src="JS/jquery.min.js"></script>
@@ -12,34 +12,32 @@
     <script src="JS/bootstrap.min.js" ></script>
 </head>
 <body>
-  <h1 style="text-align: center;">Створити заявку</h1>
-    <div class="write-startup-name">
-        <textarea rows="1" style="width: 20%;" id="text-mh"></textarea>*name
+    <a href="main.html"><h2 style="text-align: left; margin-left: 10%;">BACK</h2></a>
+    <h1 style="text-align: center;">Створити заявку</h1>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="input-name">
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">Round of foundation</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="input-round">
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-default">Investment</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="input-investment">
+</div>
+    <div>
+      <button class="col-2 btn btn-success btn-send" id="button-send">Надіслати</button>
     </div>
-    <div class="write-startup-discription">
-        <textarea rows="5" id="text-mh"></textarea>*discription
-    </div>
-    <div class="write-startup-businessmodel">
-        <textarea rows="1" id="text-mh"></textarea>*business model
-    </div>
-    <div class="write-startup-concurents">
-        <textarea rows="1"></textarea>concurents
-    </div>
-    <div class="write-startup-strategy">
-        <textarea rows="1" id="text-mh"></textarea>*marketing strategy
-    </div>
-    <div class="write-startup-investment">
-        <textarea rows="1"></textarea>sum of investment
-    </div>
-    <div class="write-startup-webadress">
-        <textarea rows="1" id="text-mh"></textarea>*web adress
-    </div>
-    <div class="write-startup-business-incubator">
-        <textarea rows="1" id="text-mh"></textarea>*business incubator
-    </div>
-      <button class="col-2 btn btn-success btn-send" id="add-fans">Надіслати</button>
 <footer>
   <span>© Сергій Денисюк</span>
   </footer>
+  <script type="text/javascript" src="JS/script-startupdirector.js"></script>
 </body>
 </html>
